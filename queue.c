@@ -38,7 +38,6 @@ Proc *Dequeue(Proc **queue)
 /*
  * Print process list.
  */
-char* statusNames[] = {"FREE", "READY", "SLEEP", "ZOMBIE"};
 void PrintList(char *name, Proc *process)
 {
 	printf("%s [pid] = ", name);
