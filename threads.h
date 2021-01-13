@@ -30,4 +30,7 @@ void twakeup(int event);
 int join(int targetPid, int *status);
 int do_join();
 
+extern Proc *readyQueue;
+extern Proc *running;
+
 #endif
